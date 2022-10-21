@@ -3,10 +3,11 @@
 
 ## Contributors
 ---
-| Student Number | Surname | First Name | Mode|
-| ----------- | ----------- |----------- | ----------- | 
-| [221067523](https://elearning.nust.na/user/profile.php?id=5950) | Nghivafe | Sakaria | Full Time|  |
-|  [217003540](https://elearning.nust.na/user/profile.php?id=7522)  | Hinda | Mia | Full Time|
+| Student Number | Surname | First Name | Mode| Practical Group |
+| ----------- | ----------- |----------- | ----------- | ----------- | 
+| [221067523](https://elearning.nust.na/user/profile.php?id=5950) | Nghivafe | Sakaria | Full Time| 2 |
+|  [217003540](https://elearning.nust.na/user/profile.php?id=7522)  | Hinda | Mia | Full Time| 2 |
+
 
 ## Assignment Details
 NUST is flourishing in scientific research and innovative solutions in a world that is
