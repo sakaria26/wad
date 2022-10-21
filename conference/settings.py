@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4tyc-=ovtf+_69%=)o@t!s=x03yb1q$qyc@9%5pn5@u==ader1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['9a18-41-182-30-120.eu.ngrok.io', '127.0.0.1']
 
 
 # Application definition
@@ -75,11 +75,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'conference.wsgi.application'
 
 
-STATICFILES_FINDERS = [
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'sass_processor.finders.CssFinder',
-]
+
 
 STATIC_ROOT = BASE_DIR / 'static'
 
@@ -138,6 +134,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'sass_processor.finders.CssFinder',
+]
+
+STATICFILES_DIRS = [
+    
+]
+
+STATIC_ROOT = BASE_DIR / 'static'
+
+
+SASS_PROCESSOR_ROOT = STATIC_ROOT
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

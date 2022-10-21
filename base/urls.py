@@ -11,5 +11,6 @@ urlpatterns = [
     path('reservations/', views.reservations, name='reservations'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),
+    path('user/<str:pk>', views.userProfilePage, name='profile'),
     # path('update/<str:pk>', views.updateUser, name='updateUser')
 ]

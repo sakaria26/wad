@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Text+Me+One&display=swap");
+html {
+  font-size: 10px; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html, body, #root, .App, .fullHeight {
+  height: 100%;
+  background-color: #F8F6F0; }
+
+.main {
+  width: 100%;
+  height: calc(100% - 10rem);
+  max-width: 1450px;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #353935; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+a, a:hover {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #353935;
+  font-family: 'Text Me One', sans-serif; }
+
+.btn {
+  padding: 1rem 2rem;
+  gap: 1rem;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #011627;
+  background-color: #f8f6f0;
+  margin: 2rem auto;
+  text-align: center;
+  cursor: pointer; }
+  .btn .innterBtn {
+    flex: none;
+    order: 0;
+    flex-grow: 0; }
+
+/*# sourceMappingURL=main.css.map */

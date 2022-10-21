@@ -85,3 +85,8 @@ def about(request):
     context = {}
     return render(request, 'base/about.html', context)
 
+def userProfilePage(request, pk):
+    user = User.objects.get(id=pk)
+    context = {'user': user}
+    return render(request, 'base/profile.html', context)
+
