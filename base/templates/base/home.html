@@ -1,0 +1,143 @@
+{% extends 'main.html' %} {% block content %}
+
+<style>
+  .intoduction {
+    height: calc(100% - 10rem);
+    position: relative;
+  }
+  .wrap {
+    width: 100%;
+  }
+  .topIntro {
+    width: 55%;
+    margin: 4rem 0rem 0rem 3rem;
+    height: 50%;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.3em;
+    margin: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.3rem;
+    margin: 0;
+  }
+
+  .bottomIntro {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem 0rem 0rem 3rem;
+    bottom: 0;
+  }
+  .goDown {
+    width: 50%;
+  }
+  .subscription {
+    width: 50%;
+    justify-content: right;
+    text-align: right;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    gap: 1rem;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+    color: #011627;
+    background-color: #f8f6f0;
+    margin: 2rem auto;
+    text-align: center;
+    cursor: pointer;
+  }
+  .innterBtn {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .conferenceDetails p {
+    line-height: 3rem;
+    margin: 2rem;
+  }
+</style>
+<section class="intoduction">
+  <div class="wrap">
+    <div class="topIntro">
+      <h2>International Conference on Technologies for Humanity</h2>
+      <p>The fifth conference on advanced technology for humanity</p>
+      <button class="btn">
+        <div class="innterBtn">Register</div>
+      </button>
+    </div>
+    <div class="bottomIntro">
+      <div class="goDown">Go Down</div>
+      <div class="subscription">
+        <p>Subscribe to our newsletter</p>
+        <p>Enter your email address</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="conferenceDetails">
+  <div class="conferenceIntroduction">
+    <p>
+      The 5th International Conference on Advanced Technologies for Humanity
+      (ICATH 2023) will be held in Geneva, Switzerland, from 20 to 23 May 2023.
+      The conference will be hosted by the University of Geneva in collaboration
+      with the Swiss Federal Institute of Technology in Lausanne (EPFL). Other
+      institutions in Switzerland and abroad will also be involved in the
+      organization of the conference. These include the University of Zurich,
+      Namibia University of Science and Technology, Masaryk University,
+      University of Ljubljana, University of Belgrade, University of Novi Sad
+      and the Massachusetts Institute of Technology.
+    </p>
+
+    <p>
+      ICATH 2023 aims to bridge the ignored gap between science and engineering,
+      and humanity. Advancements made in science and engineering should work
+      hand in hand with the humanity aspect for them to have a meaningful
+      impact. This conference like it's predecessors, aims to be the meeting
+      point for researchers and practitioners, enabling the implementation of
+      advanced technologies in various sectors.
+    </p>
+    <p>
+      <b>All Accepted papers</b> will be published in the conference proceedings
+      and submitted for inclusion in the <b>IEEE Xplore Digital Library</b>.
+      They will also be available on the ICATH 2023 website.
+    </p>
+    <p>
+      The conference will be designed and prepared as an in-person event.
+      However, in the case of perduring traveling restrictions during the
+      conference dates due to the COVID-19 pandemic, we will be ready to convert
+      the conference to a fully on-line event.
+    </p>
+  </div>
+  <div class="importantDates">
+    <h2>Important Dates</h2>
+    <p><b>31 March 2023</b></p>
+    <p>Submission of full papers</p>
+    <p><b>31 April 2023</b></p>
+    <p>Notification of acceptance</p>
+    <p><b>31 April 2023</b></p>
+    <p>Submission of camera-ready papers</p>
+    <p><b>31 May 2023</b></p>
+    <p>Publication of proceedings</p>
+    <p><b>31 June 2023</b></p>
+    <p>Main Conference: Talks and Presentations</p>
+  </div>
+</div>
+
+<div class="callForPapers">
+  <a>View Call For Papers</a>
+</div>
+{% endblock %}
